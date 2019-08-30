@@ -5,13 +5,14 @@ can be found in the LICENSE file at http://angular.io/license
 -->
 
 
-<h2>Products</h2>
+<h2>Galaxy Store</h2>
 
 <div *ngFor="let product of products">
 
   <h3>
     <a [title]="product.name + ' details'">
       {{ product.name }}
+      ({{ product.price }}$)
     </a>
   </h3>
 
