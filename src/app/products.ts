@@ -13,6 +13,16 @@ export const products = [
     name: 'Galaxy A2',
     price: 299,
     description: 'An entry level phone'
+  },
+  {
+    name: 'Galaxy A1',
+    price: 199,
+    description: 'An entry level phone'
+  },
+  {
+    name: 'Galaxy A0',
+    price: 99,
+    description: 'An entry level phone'
   }
 ];
 
